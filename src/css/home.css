@@ -1,0 +1,195 @@
+.home .full-screen {
+    min-height: 86vh;
+    padding: 50px 0;
+}
+
+.home .texto-home {
+    letter-spacing: 2px;
+}
+
+.home .texto-home, .home .img.home {
+    flex: 0 0 50%;
+    /* ocupa 50% do tamanho e não faz grow nem shrink */
+    max-width: 50%;
+    padding: 0 15px;
+}
+
+.home .img-home .img-box {
+    max-width: 450px;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.home .img-home .img-box img {
+    width: 100%;
+    border-radius: 50%;
+    border: 10px solid transparent;
+}
+
+.home .texto-home p {
+    font-family: var(--fonte-primaria);
+    font-size: var(--fonte-grande);
+    margin-bottom: 15px;
+}
+
+.home .texto-home h1 {
+    font-family: var(--fonte-primaria);
+    font-size: var(--fonte-gigante);
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.home .texto-home h2 {
+    font-family: var(--fonte-primaria);
+    font-size: var(--fonte-grande);
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+@media(max-width: 1280px) {
+    .home .texto-home, .home .img-home {
+        flex: 0 0 1000%;
+        max-width: 100%;
+        text-align: center;
+        padding: 0 var(--mobile-padding);
+    }
+    .home .img-home {
+        margin-top: 50px;
+    }
+
+    /* botões redes-sociais */
+    .footer .container .redes-sociais a {
+        width: 55px;
+        height: 40px;
+        font-size: 2.9rem;
+        margin: 5px 5px;
+        text-align: center;
+    }
+}
+
+@media(max-width: 835px) {
+
+    /* texto de apresentação */
+    .home .texto-home p {
+        font-family: var(--fonte-primaria);
+        font-size: var(--fonte-grande);
+        font-weight: 500;
+    }
+
+    .home .texto-home h1 {
+        font-family: var(--fonte-primaria);
+        font-size: var(--fonte-extra-grande);
+        font-weight: 700;
+    }
+
+    .home .texto-home h2 {
+        font-family: var(--fonte-primaria);
+        font-size: var(--fonte-grande);
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+    }
+    
+    /* tamanho da imagem */
+    .home .img-home .img-box {
+        max-width: 300px;
+    }
+}
+
+@media(max-width: 415px) {
+
+    /* texto de apresentação */
+    .home .texto-home p {
+        font-family: var(--fonte-primaria);
+        font-size: var(--fonte-media);
+        font-weight: 500;
+    }
+
+    .home .texto-home h1 {
+        font-family: var(--fonte-primaria);
+        font-size: var(--fonte-grande);
+        font-weight: 700;
+    }
+
+    .home .texto-home h2 {
+        font-family: var(--fonte-primaria);
+        font-size: var(--fonte-media);
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+    }
+
+    /* botões redes-sociais */
+    .home .container .redes-sociais a {
+        width: 45px;
+        height: 35px;
+        font-size: 2.5rem;
+        margin: 1px 7px;
+        text-align: center;
+    }
+    
+    /* tamanho da imagem */
+    .home .img-home .img-box {
+        max-width: 260px;
+    }
+}
+
+@media(max-width: 365px) {
+
+    /* texto de apresentação */
+    .home .texto-home p {
+        font-family: var(--fonte-primaria);
+        font-size: var(--fonte-normal);
+        font-weight: 500;
+    }
+
+    .home .texto-home h1 {
+        font-family: var(--fonte-primaria);
+        font-size: var(--fonte-media);
+        font-weight: 700;
+    }
+
+    .home .texto-home h2 {
+        font-family: var(--fonte-primaria);
+        font-size: var(--fonte-normal);
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+    }
+
+    /* botões das redes sociais */
+    .home .container .redes-sociais a {
+        width: 40px;
+        height: 30px;
+        font-size: 2.1rem;
+        margin: 7px 4px;
+        text-align: center;
+    }
+    
+    /* tamanho da imagem */
+    .home .img-home .img-box {
+        max-width: 225px;
+    }
+}
+
+
+
+
+
+/* .home .texto-apresentacao {
+    font-family: var(--fonte-primaria);
+    font-size: var(--fonte-normal);
+    max-height: 300px;
+    overflow-y: scroll;
+    padding: 0 20px;
+    background-color: var(--cor-branca);
+    width: 100%;
+    border-radius: 10px;
+    color: var(--cor-preta);
+}
+
+.home .titulo-apresentacao {
+    font-family: var(--fonte-primaria);
+    font-size: var(--fonte-grande);
+    font-weight: 600;
+    padding-bottom: 5px;
+} */

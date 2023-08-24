@@ -1,0 +1,120 @@
+.footer {
+    margin-top: 7rem;
+    text-align: center;
+    background-color: var(--cor-fundo-cinza-claro);
+}
+
+.footer .container {
+    padding: 1rem 0;
+    max-width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container .footer-logo {
+    margin-top: 10px;
+    width: 80px;
+}
+
+.container .footer-informativo {
+    font-family: var(--fonte-primaria);
+    font-size: var(--fonte-normal);
+
+}
+.footer-informativo .cor-coracao {
+    color: red;
+}
+
+
+@media(max-width: 1280px) {
+    .footer {
+        padding: var(--mobile-padding);
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .footer .container .footer-informativo {
+        font-size: var(--fonte-normal);
+        width: auto;
+        margin: 0 10px;
+        text-align: center;
+    }
+
+    .footer .container .redes-sociais a {
+        width: 55px;
+        height: 40px;
+        font-size: 2.9rem;
+        margin: 5px 5px;
+        text-align: center;
+    }
+
+    .footer .container .footer-logo {
+        width: 130px;
+    }
+}
+
+@media (max-width: 835px) {
+    .footer .container {
+        padding: 1rem 0;
+        max-width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .footer .container .redes-sociais a {
+        width: 35px;
+        height: 30px;
+        font-size: 2rem;
+        margin: 5px 3px;
+        text-align: center;
+    }
+
+    .footer .container .footer-informativo {
+        font-size: var(--fonte-pequena);
+        width: auto;
+        margin: 0 10px;
+    }
+
+    .footer .container .footer-logo {
+        width: 100px;
+    }
+}
+
+@media(max-width: 415px) {
+
+    .footer .container .footer-informativo {
+        font-size: var(--fonte-pequena);
+        width: auto;
+        margin: 0 15px;
+    }
+
+    .footer .container .redes-sociais a {
+        width: 30px;
+        height: 25px;
+        font-size: 1.5rem;
+        margin: 5px 5px;
+        text-align: center;
+    }
+
+    .footer .container .footer-logo {
+        margin-top: 20px;
+        width: 140px;
+    }
+}
+
+@media(max-width: 365px) {
+    .footer .container .footer-informativo {
+        width: auto;
+        margin: 0 5px;
+    }
+
+    .footer .container .redes-sociais a {
+        width: 25px;
+        height: 20px;
+        font-size: 1.3rem;
+        margin: 5px 3px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,61 @@
+html {
+    color: var(--cor-branca);
+    font-size: 62.5%;
+    font-weight: 300;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--cor-body);
+    font-family: var(--fonte-primaria);
+    font-size: var(--fonte-normal);
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.alinhar-itens-no-centro {
+    align-items: center;
+}
+
+.redes-sociais a {
+    display: inline-block;
+    width: 55px;
+    height: 40px;
+    font-size: 2.9rem;
+    margin: 5px 15px;
+    text-align: center;
+    border-radius: 15%;
+    transition: all 0.3s ease;
+}
+
+.redes-sociais a:hover{
+    background-color: var(--cor-primaria);
+}
+
+.redes-sociais a i img {
+    line-height: 45px;
+}
+
+.outer-shadow {
+    box-shadow: 3px 3px #222327, -3px -3px #454545;
+}
+
+.inner-shadow {
+    box-shadow: inset 3px 3px 3px #222327, inset -3px -3px 3px #454545;
+}
+
+.termos-de-uso {
+    color: var(--cor-branca);
+}
