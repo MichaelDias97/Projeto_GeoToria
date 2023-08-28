@@ -8,7 +8,7 @@ html {
 body {
     background-color: var(--cor-body);
     font-family: var(--fonte-primaria);
-    font-size: var(--fonte-normal);
+    /* font-size: var(--fonte-normal); */
 }
 
 .container {

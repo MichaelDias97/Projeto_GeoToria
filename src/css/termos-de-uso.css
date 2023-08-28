@@ -1,5 +1,5 @@
 .main {
-    padding: 30px;
+    padding: 40px;
 }
 
 .main .container {
@@ -42,7 +42,7 @@
     text-transform: capitalize;
     font-size: var(--fonte-normal);
     font-weight: 500;
-    padding: 10px 0;
+    padding: 5px 0;
     transition: 0.2s;
     border-radius: 50px;
     letter-spacing: 2px;
@@ -51,4 +51,103 @@
 
 .main .container a:hover {
     background-color: var(--cor-branca);
+}
+
+@media(max-width: 835px) {
+    .main {
+        padding: 20px;
+        letter-spacing: 1px;
+    }
+
+    .container .titulo-principal {
+        padding: 20px 0;
+        font-size: var(--fonte-media);
+    }
+
+    .container .informacao {
+        padding: 10px 0;
+        font-size: var(--fonte-normal);
+    }
+
+    .container .titulo-dos-termos {
+        padding: 5px 0;
+        font-size: var(--fonte-normal);
+    }
+
+    .main .container p,
+    .listagem li {
+        padding: 5px 0;
+        font-size: var(--fonte-pequena);
+    }
+
+    .main .container .link-adv {
+        font-size: var(--fonte-pequena);
+        padding: 2px 0;
+    }
+}
+
+@media(max-width: 415px) {
+    .main {
+        padding: 15px;
+        letter-spacing: 1px;
+    }
+
+    .container .titulo-principal {
+        padding: 20px 0;
+        font-size: var(--fonte-media);
+    }
+
+    .container .informacao {
+        padding: 10px 0;
+        font-size: var(--fonte-normal);
+    }
+
+    .container .titulo-dos-termos {
+        padding: 5px 0;
+        font-size: var(--fonte-normal);
+    }
+
+    .main .container p,
+    .listagem li {
+        padding: 5px 0;
+        font-size: var(--fonte-pequena);
+    }
+
+    .main .container .link-adv {
+        font-size: var(--fonte-pequena);
+        padding: 1px 0;
+    }
+}
+
+@media(max-width: 365px) {
+    .main {
+        padding: 10px;
+        letter-spacing: 1px;
+    }
+
+    .container .titulo-principal {
+        padding: 20px 0;
+        font-size: var(--fonte-media);
+    }
+
+    .container .informacao {
+        padding: 10px 0;
+        font-size: var(--fonte-normal);
+    }
+
+    .container .titulo-dos-termos {
+        padding: 5px 0;
+        font-size: var(--fonte-normal);
+    }
+
+    .main .container p,
+    .listagem li {
+        padding: 5px 0;
+        font-size: var(--fonte-pequena);
+    }
+
+    .main .container .link-adv {
+        font-size: var(--fonte-pequena);
+        padding: 1px 0;
+    }
 }

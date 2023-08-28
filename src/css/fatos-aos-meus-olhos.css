@@ -1,0 +1,43 @@
+.home {
+    padding: 80px 0;
+    letter-spacing: 2px;
+}
+
+.artigo .post-title {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    color: black;
+}
+
+.artigo .post-img {
+    display: flex;
+    margin: 15px;
+}
+
+.artigo .post-texto {
+    margin: 0 10px;
+    width: 90%;
+    max-height: 190px;
+    overflow-y: scroll;
+}
+
+.artigo .post-texto p {
+    padding: 5px 0;
+    font-size: var(--fonte-normal);
+}
+
+
+
+/* .artigo .botao {
+    color: var(--cor-preta);
+    font-weight: 600;
+    padding: 10px 15px;
+    letter-spacing: 1px;
+    background-color: var(--cor-secundaria);
+    margin: 27%;
+} */
+
+hr {
+    border: 1px solid black;
+}

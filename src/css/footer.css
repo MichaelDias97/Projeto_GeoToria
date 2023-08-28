@@ -86,7 +86,7 @@
 
     .footer .container .footer-informativo {
         font-size: var(--fonte-pequena);
-        width: auto;
+        width: 330px;
         margin: 0 15px;
     }
 
@@ -106,7 +106,7 @@
 
 @media(max-width: 365px) {
     .footer .container .footer-informativo {
-        width: auto;
+        width: 240px;
         margin: 0 5px;
     }
 
@@ -116,5 +116,10 @@
         font-size: 1.3rem;
         margin: 5px 3px;
         text-align: center;
+    }
+
+    .footer .container .footer-logo {
+        margin-top: 20px;
+        width: 100px;
     }
 }
