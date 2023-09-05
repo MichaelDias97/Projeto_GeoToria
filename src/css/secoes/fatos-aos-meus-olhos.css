@@ -21,7 +21,7 @@
 .artigo .post-texto {
     margin: 0 10px;
     width: 90%;
-    max-height: 190px;
+    max-height: 240px;
     overflow-y: scroll;
 }
 
@@ -45,7 +45,31 @@ hr {
 
 
 @media(max-width: 835px) {
+    .home {
+        padding: 30px 0;
+        letter-spacing: 1px;
+    }
 
+    .artigo .post-title {
+        font-size: var(--fonte-media);
+        padding: 5px; 
+    }
+
+    .artigo .post-img {
+        display: block;
+        text-align: center;
+        margin: 8px;
+    }
+
+    .artigo .post-texto {
+        margin: 15px 10px;
+        width: auto;
+        max-height: 210px;
+    }
+
+    .artigo .post-texto p {
+        font-size: var(--fonte-normal);
+    }
 }
 
 @media(max-width: 415px) {
@@ -67,6 +91,7 @@ hr {
     .artigo .post-texto {
         margin: 15px 10px;
         width: auto;
+        max-height: 190px;
     }
 
     .artigo .post-texto p {
